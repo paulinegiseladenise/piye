@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34A2ACB629067066000426E3 /* PiyeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A2ACB529067066000426E3 /* PiyeApp.swift */; };
+		34A2ACB829067066000426E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A2ACB729067066000426E3 /* ContentView.swift */; };
+		34A2ACBA29067067000426E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34A2ACB929067067000426E3 /* Assets.xcassets */; };
+		34A2ACBD29067067000426E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34A2ACBC29067067000426E3 /* Preview Assets.xcassets */; };
+		34A2ACC729067068000426E3 /* PiyeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A2ACC629067068000426E3 /* PiyeTests.swift */; };
+		34A2ACD129067068000426E3 /* PiyeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A2ACD029067068000426E3 /* PiyeUITests.swift */; };
+		34A2ACD329067068000426E3 /* PiyeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A2ACD229067068000426E3 /* PiyeUITestsLaunchTests.swift */; };
+		34A2ACE02906728F000426E3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 34A2ACDF2906728F000426E3 /* GoogleService-Info.plist */; };
+		34A2ACE12906728F000426E3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 34A2ACDF2906728F000426E3 /* GoogleService-Info.plist */; };
+		34A2ACE229067290000426E3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 34A2ACDF2906728F000426E3 /* GoogleService-Info.plist */; };
+		34A2ACE52906764D000426E3 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 34A2ACE42906764D000426E3 /* FirebaseAuth */; };
+		34A2ACE72906764D000426E3 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 34A2ACE62906764D000426E3 /* FirebaseFirestore */; };
+		34A2ACE92906764D000426E3 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 34A2ACE82906764D000426E3 /* FirebaseFirestoreSwift */; };
+		34A2ACEB29068824000426E3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A2ACEA29068824000426E3 /* User.swift */; };
+		34A2ACEC29068824000426E3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A2ACEA29068824000426E3 /* User.swift */; };
+		34A2ACED29068824000426E3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A2ACEA29068824000426E3 /* User.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34A2ACC329067068000426E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34A2ACAA29067066000426E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34A2ACB129067066000426E3;
+			remoteInfo = Piye;
+		};
+		34A2ACCD29067068000426E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34A2ACAA29067066000426E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34A2ACB129067066000426E3;
+			remoteInfo = Piye;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34A2ACB229067066000426E3 /* Piye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Piye.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34A2ACB529067066000426E3 /* PiyeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiyeApp.swift; sourceTree = "<group>"; };
+		34A2ACB729067066000426E3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		34A2ACB929067067000426E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34A2ACBC29067067000426E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		34A2ACC229067068000426E3 /* PiyeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PiyeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34A2ACC629067068000426E3 /* PiyeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiyeTests.swift; sourceTree = "<group>"; };
+		34A2ACCC29067068000426E3 /* PiyeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PiyeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34A2ACD029067068000426E3 /* PiyeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiyeUITests.swift; sourceTree = "<group>"; };
+		34A2ACD229067068000426E3 /* PiyeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiyeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		34A2ACDF2906728F000426E3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		34A2ACEA29068824000426E3 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34A2ACAF29067066000426E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34A2ACE52906764D000426E3 /* FirebaseAuth in Frameworks */,
+				34A2ACE72906764D000426E3 /* FirebaseFirestore in Frameworks */,
+				34A2ACE92906764D000426E3 /* FirebaseFirestoreSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34A2ACBF29067068000426E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34A2ACC929067068000426E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34A2ACA929067066000426E3 = {
+			isa = PBXGroup;
+			children = (
+				34A2ACB429067066000426E3 /* Piye */,
+				34A2ACC529067068000426E3 /* PiyeTests */,
+				34A2ACCF29067068000426E3 /* PiyeUITests */,
+				34A2ACB329067066000426E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34A2ACB329067066000426E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34A2ACB229067066000426E3 /* Piye.app */,
+				34A2ACC229067068000426E3 /* PiyeTests.xctest */,
+				34A2ACCC29067068000426E3 /* PiyeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34A2ACB429067066000426E3 /* Piye */ = {
+			isa = PBXGroup;
+			children = (
+				34A2ACB529067066000426E3 /* PiyeApp.swift */,
+				34A2ACB729067066000426E3 /* ContentView.swift */,
+				34A2ACDF2906728F000426E3 /* GoogleService-Info.plist */,
+				34A2ACB929067067000426E3 /* Assets.xcassets */,
+				34A2ACBB29067067000426E3 /* Preview Content */,
+				34A2ACEA29068824000426E3 /* User.swift */,
+			);
+			path = Piye;
+			sourceTree = "<group>";
+		};
+		34A2ACBB29067067000426E3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				34A2ACBC29067067000426E3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		34A2ACC529067068000426E3 /* PiyeTests */ = {
+			isa = PBXGroup;
+			children = (
+				34A2ACC629067068000426E3 /* PiyeTests.swift */,
+			);
+			path = PiyeTests;
+			sourceTree = "<group>";
+		};
+		34A2ACCF29067068000426E3 /* PiyeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				34A2ACD029067068000426E3 /* PiyeUITests.swift */,
+				34A2ACD229067068000426E3 /* PiyeUITestsLaunchTests.swift */,
+			);
+			path = PiyeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34A2ACB129067066000426E3 /* Piye */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34A2ACD629067068000426E3 /* Build configuration list for PBXNativeTarget "Piye" */;
+			buildPhases = (
+				34A2ACAE29067066000426E3 /* Sources */,
+				34A2ACAF29067066000426E3 /* Frameworks */,
+				34A2ACB029067066000426E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Piye;
+			packageProductDependencies = (
+				34A2ACE42906764D000426E3 /* FirebaseAuth */,
+				34A2ACE62906764D000426E3 /* FirebaseFirestore */,
+				34A2ACE82906764D000426E3 /* FirebaseFirestoreSwift */,
+			);
+			productName = Piye;
+			productReference = 34A2ACB229067066000426E3 /* Piye.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34A2ACC129067068000426E3 /* PiyeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34A2ACD929067068000426E3 /* Build configuration list for PBXNativeTarget "PiyeTests" */;
+			buildPhases = (
+				34A2ACBE29067068000426E3 /* Sources */,
+				34A2ACBF29067068000426E3 /* Frameworks */,
+				34A2ACC029067068000426E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34A2ACC429067068000426E3 /* PBXTargetDependency */,
+			);
+			name = PiyeTests;
+			productName = PiyeTests;
+			productReference = 34A2ACC229067068000426E3 /* PiyeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		34A2ACCB29067068000426E3 /* PiyeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34A2ACDC29067068000426E3 /* Build configuration list for PBXNativeTarget "PiyeUITests" */;
+			buildPhases = (
+				34A2ACC829067068000426E3 /* Sources */,
+				34A2ACC929067068000426E3 /* Frameworks */,
+				34A2ACCA29067068000426E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34A2ACCE29067068000426E3 /* PBXTargetDependency */,
+			);
+			name = PiyeUITests;
+			productName = PiyeUITests;
+			productReference = 34A2ACCC29067068000426E3 /* PiyeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34A2ACAA29067066000426E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					34A2ACB129067066000426E3 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					34A2ACC129067068000426E3 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 34A2ACB129067066000426E3;
+					};
+					34A2ACCB29067068000426E3 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 34A2ACB129067066000426E3;
+					};
+				};
+			};
+			buildConfigurationList = 34A2ACAD29067066000426E3 /* Build configuration list for PBXProject "Piye" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34A2ACA929067066000426E3;
+			packageReferences = (
+				34A2ACE32906764D000426E3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 34A2ACB329067066000426E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34A2ACB129067066000426E3 /* Piye */,
+				34A2ACC129067068000426E3 /* PiyeTests */,
+				34A2ACCB29067068000426E3 /* PiyeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34A2ACB029067066000426E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34A2ACBD29067067000426E3 /* Preview Assets.xcassets in Resources */,
+				34A2ACBA29067067000426E3 /* Assets.xcassets in Resources */,
+				34A2ACE02906728F000426E3 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34A2ACC029067068000426E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34A2ACE12906728F000426E3 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34A2ACCA29067068000426E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34A2ACE229067290000426E3 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34A2ACAE29067066000426E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34A2ACB829067066000426E3 /* ContentView.swift in Sources */,
+				34A2ACB629067066000426E3 /* PiyeApp.swift in Sources */,
+				34A2ACEB29068824000426E3 /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34A2ACBE29067068000426E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34A2ACEC29068824000426E3 /* User.swift in Sources */,
+				34A2ACC729067068000426E3 /* PiyeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34A2ACC829067068000426E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34A2ACD129067068000426E3 /* PiyeUITests.swift in Sources */,
+				34A2ACD329067068000426E3 /* PiyeUITestsLaunchTests.swift in Sources */,
+				34A2ACED29068824000426E3 /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34A2ACC429067068000426E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34A2ACB129067066000426E3 /* Piye */;
+			targetProxy = 34A2ACC329067068000426E3 /* PBXContainerItemProxy */;
+		};
+		34A2ACCE29067068000426E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34A2ACB129067066000426E3 /* Piye */;
+			targetProxy = 34A2ACCD29067068000426E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		34A2ACD429067068000426E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		34A2ACD529067068000426E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34A2ACD729067068000426E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Piye/Preview Content\"";
+				DEVELOPMENT_TEAM = CS74BX356F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulinegiseladenise.Piye;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34A2ACD829067068000426E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Piye/Preview Content\"";
+				DEVELOPMENT_TEAM = CS74BX356F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulinegiseladenise.Piye;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		34A2ACDA29067068000426E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CS74BX356F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulinegiseladenise.PiyeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Piye.app/Piye";
+			};
+			name = Debug;
+		};
+		34A2ACDB29067068000426E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CS74BX356F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulinegiseladenise.PiyeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Piye.app/Piye";
+			};
+			name = Release;
+		};
+		34A2ACDD29067068000426E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CS74BX356F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulinegiseladenise.PiyeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Piye;
+			};
+			name = Debug;
+		};
+		34A2ACDE29067068000426E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CS74BX356F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulinegiseladenise.PiyeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Piye;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34A2ACAD29067066000426E3 /* Build configuration list for PBXProject "Piye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34A2ACD429067068000426E3 /* Debug */,
+				34A2ACD529067068000426E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34A2ACD629067068000426E3 /* Build configuration list for PBXNativeTarget "Piye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34A2ACD729067068000426E3 /* Debug */,
+				34A2ACD829067068000426E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34A2ACD929067068000426E3 /* Build configuration list for PBXNativeTarget "PiyeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34A2ACDA29067068000426E3 /* Debug */,
+				34A2ACDB29067068000426E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34A2ACDC29067068000426E3 /* Build configuration list for PBXNativeTarget "PiyeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34A2ACDD29067068000426E3 /* Debug */,
+				34A2ACDE29067068000426E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		34A2ACE32906764D000426E3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		34A2ACE42906764D000426E3 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 34A2ACE32906764D000426E3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		34A2ACE62906764D000426E3 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 34A2ACE32906764D000426E3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		34A2ACE82906764D000426E3 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 34A2ACE32906764D000426E3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 34A2ACAA29067066000426E3 /* Project object */;
+}
